@@ -40,3 +40,5 @@ class SettingsDataStore(private val context: Context) {
         context.dataStore.edit { it[Keys.FAVORITES_ONLY] = enabled }
     }
 }
+
+
