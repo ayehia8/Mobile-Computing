@@ -1,6 +1,5 @@
 package com.example.scoresapp.data.local
 
-/** Sample data so the app has content on first launch. Dates are relative to "now". */
 object SeedData {
     private const val DAY = 24L * 60 * 60 * 1000
 

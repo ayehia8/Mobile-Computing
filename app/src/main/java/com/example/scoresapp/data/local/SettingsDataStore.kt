@@ -20,7 +20,6 @@ class SettingsDataStore(private val context: Context) {
         val FAVORITES_ONLY = booleanPreferencesKey("favorites_only")
     }
 
-    /** Falls back to empty preferences instead of crashing if the file is unreadable. */
     private val preferences: Flow<Preferences> =
         context.dataStore.data.catch { throwable ->
             if (throwable is IOException) emit(emptyPreferences()) else throw throwable
