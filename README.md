@@ -1,4 +1,4 @@
-﻿# Scores App
+# Scores App
 
 An Android app for browsing football results and upcoming fixtures, built with Kotlin and Jetpack Compose.
 
